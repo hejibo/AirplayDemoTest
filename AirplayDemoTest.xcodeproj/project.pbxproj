@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B235C139176D5ACB0075AB1F /* ViewController_TV.xib in Resources */ = {isa = PBXBuildFile; fileRef = B235C138176D5ACB0075AB1F /* ViewController_TV.xib */; };
+		B235C13C176D5B700075AB1F /* ViewController_TV.m in Sources */ = {isa = PBXBuildFile; fileRef = B235C13B176D5B700075AB1F /* ViewController_TV.m */; };
+		B235C13E176D69870075AB1F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B235C13D176D69870075AB1F /* MediaPlayer.framework */; };
+		B2A7526E17EAAE7D00CE0E58 /* UIViewController+ScreenText.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A7526D17EAAE7D00CE0E58 /* UIViewController+ScreenText.m */; };
+		B2B728F5173F961C009D8322 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B728F4173F961C009D8322 /* UIKit.framework */; };
+		B2B728F7173F961C009D8322 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B728F6173F961C009D8322 /* Foundation.framework */; };
+		B2B728F9173F961C009D8322 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B728F8173F961C009D8322 /* CoreGraphics.framework */; };
+		B2B728FF173F961C009D8322 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2B728FD173F961C009D8322 /* InfoPlist.strings */; };
+		B2B72901173F961C009D8322 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B72900173F961C009D8322 /* main.m */; };
+		B2B72905173F961C009D8322 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B72904173F961C009D8322 /* AppDelegate.m */; };
+		B2B72907173F961C009D8322 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B72906173F961C009D8322 /* Default.png */; };
+		B2B72909173F961C009D8322 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B72908173F961C009D8322 /* Default@2x.png */; };
+		B2B7290B173F961C009D8322 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B7290A173F961C009D8322 /* Default-568h@2x.png */; };
+		B2B7290E173F961C009D8322 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B7290D173F961C009D8322 /* ViewController.m */; };
+		B2B72911173F961C009D8322 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2B7290F173F961C009D8322 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B235C138176D5ACB0075AB1F /* ViewController_TV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_TV.xib; sourceTree = "<group>"; };
+		B235C13A176D5B700075AB1F /* ViewController_TV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_TV.h; sourceTree = "<group>"; };
+		B235C13B176D5B700075AB1F /* ViewController_TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_TV.m; sourceTree = "<group>"; };
+		B235C13D176D69870075AB1F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B2A7526C17EAAE7D00CE0E58 /* UIViewController+ScreenText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ScreenText.h"; sourceTree = "<group>"; };
+		B2A7526D17EAAE7D00CE0E58 /* UIViewController+ScreenText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ScreenText.m"; sourceTree = "<group>"; };
+		B2B728F1173F961C009D8322 /* AirplayDemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirplayDemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B728F4173F961C009D8322 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2B728F6173F961C009D8322 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2B728F8173F961C009D8322 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2B728FC173F961C009D8322 /* AirplayDemoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirplayDemoTest-Info.plist"; sourceTree = "<group>"; };
+		B2B728FE173F961C009D8322 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2B72900173F961C009D8322 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2B72902173F961C009D8322 /* AirplayDemoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirplayDemoTest-Prefix.pch"; sourceTree = "<group>"; };
+		B2B72903173F961C009D8322 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2B72904173F961C009D8322 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2B72906173F961C009D8322 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B2B72908173F961C009D8322 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B2B7290A173F961C009D8322 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B2B7290C173F961C009D8322 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2B7290D173F961C009D8322 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2B72910173F961C009D8322 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2B728EE173F961C009D8322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B235C13E176D69870075AB1F /* MediaPlayer.framework in Frameworks */,
+				B2B728F5173F961C009D8322 /* UIKit.framework in Frameworks */,
+				B2B728F7173F961C009D8322 /* Foundation.framework in Frameworks */,
+				B2B728F9173F961C009D8322 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2B728E8173F961C009D8322 = {
+			isa = PBXGroup;
+			children = (
+				B235C13D176D69870075AB1F /* MediaPlayer.framework */,
+				B2B728FA173F961C009D8322 /* AirplayDemoTest */,
+				B2B728F3173F961C009D8322 /* Frameworks */,
+				B2B728F2173F961C009D8322 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2B728F2173F961C009D8322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2B728F1173F961C009D8322 /* AirplayDemoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2B728F3173F961C009D8322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B728F4173F961C009D8322 /* UIKit.framework */,
+				B2B728F6173F961C009D8322 /* Foundation.framework */,
+				B2B728F8173F961C009D8322 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2B728FA173F961C009D8322 /* AirplayDemoTest */ = {
+			isa = PBXGroup;
+			children = (
+				B2A7526C17EAAE7D00CE0E58 /* UIViewController+ScreenText.h */,
+				B2A7526D17EAAE7D00CE0E58 /* UIViewController+ScreenText.m */,
+				B235C138176D5ACB0075AB1F /* ViewController_TV.xib */,
+				B235C13A176D5B700075AB1F /* ViewController_TV.h */,
+				B235C13B176D5B700075AB1F /* ViewController_TV.m */,
+				B2B72903173F961C009D8322 /* AppDelegate.h */,
+				B2B72904173F961C009D8322 /* AppDelegate.m */,
+				B2B7290F173F961C009D8322 /* ViewController.xib */,
+				B2B7290C173F961C009D8322 /* ViewController.h */,
+				B2B7290D173F961C009D8322 /* ViewController.m */,
+				B2B728FB173F961C009D8322 /* Supporting Files */,
+			);
+			path = AirplayDemoTest;
+			sourceTree = "<group>";
+		};
+		B2B728FB173F961C009D8322 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2B728FC173F961C009D8322 /* AirplayDemoTest-Info.plist */,
+				B2B728FD173F961C009D8322 /* InfoPlist.strings */,
+				B2B72900173F961C009D8322 /* main.m */,
+				B2B72902173F961C009D8322 /* AirplayDemoTest-Prefix.pch */,
+				B2B72906173F961C009D8322 /* Default.png */,
+				B2B72908173F961C009D8322 /* Default@2x.png */,
+				B2B7290A173F961C009D8322 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2B728F0173F961C009D8322 /* AirplayDemoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B72914173F961C009D8322 /* Build configuration list for PBXNativeTarget "AirplayDemoTest" */;
+			buildPhases = (
+				B2B728ED173F961C009D8322 /* Sources */,
+				B2B728EE173F961C009D8322 /* Frameworks */,
+				B2B728EF173F961C009D8322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirplayDemoTest;
+			productName = AirplayDemoTest;
+			productReference = B2B728F1173F961C009D8322 /* AirplayDemoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2B728E9173F961C009D8322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Johnny Sung";
+			};
+			buildConfigurationList = B2B728EC173F961C009D8322 /* Build configuration list for PBXProject "AirplayDemoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2B728E8173F961C009D8322;
+			productRefGroup = B2B728F2173F961C009D8322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2B728F0173F961C009D8322 /* AirplayDemoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2B728EF173F961C009D8322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B728FF173F961C009D8322 /* InfoPlist.strings in Resources */,
+				B2B72907173F961C009D8322 /* Default.png in Resources */,
+				B2B72909173F961C009D8322 /* Default@2x.png in Resources */,
+				B2B7290B173F961C009D8322 /* Default-568h@2x.png in Resources */,
+				B2B72911173F961C009D8322 /* ViewController.xib in Resources */,
+				B235C139176D5ACB0075AB1F /* ViewController_TV.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2B728ED173F961C009D8322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B72901173F961C009D8322 /* main.m in Sources */,
+				B2B72905173F961C009D8322 /* AppDelegate.m in Sources */,
+				B2B7290E173F961C009D8322 /* ViewController.m in Sources */,
+				B2A7526E17EAAE7D00CE0E58 /* UIViewController+ScreenText.m in Sources */,
+				B235C13C176D5B700075AB1F /* ViewController_TV.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2B728FD173F961C009D8322 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B728FE173F961C009D8322 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2B7290F173F961C009D8322 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B72910173F961C009D8322 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2B72912173F961C009D8322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2B72913173F961C009D8322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2B72915173F961C009D8322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirplayDemoTest/AirplayDemoTest-Prefix.pch";
+				INFOPLIST_FILE = "AirplayDemoTest/AirplayDemoTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2B72916173F961C009D8322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirplayDemoTest/AirplayDemoTest-Prefix.pch";
+				INFOPLIST_FILE = "AirplayDemoTest/AirplayDemoTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2B728EC173F961C009D8322 /* Build configuration list for PBXProject "AirplayDemoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B72912173F961C009D8322 /* Debug */,
+				B2B72913173F961C009D8322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B72914173F961C009D8322 /* Build configuration list for PBXNativeTarget "AirplayDemoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B72915173F961C009D8322 /* Debug */,
+				B2B72916173F961C009D8322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2B728E9173F961C009D8322 /* Project object */;
+}
